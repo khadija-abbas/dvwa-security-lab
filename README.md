@@ -43,7 +43,7 @@ Server: Docker Desktop 4.63.0 (220185)
 ```
 
 > 📷 **Screenshot – Docker Version Verification:**
-> ![Docker version output](./screenshots/docker_version.png)
+> [Docker version output](./screenshots/docker_version.png)
 
 ---
 
@@ -73,8 +73,8 @@ docker ps
 **Expected output:**
 
 ```
-CONTAINER ID   IMAGE                    COMMAND                  CREATED          STATUS          PORTS                  NAMES
-a1b2c3d4e5f6   vulnerables/web-dvwa     "/main.sh"               5 seconds ago    Up 4 seconds    0.0.0.0:8080->80/tcp   dvwa
+CONTAINER ID   IMAGE                  COMMAND      CREATED          STATUS          PORTS                                     NAMES
+55fe2aa95aa6   vulnerables/web-dvwa   "/main.sh"   42 seconds ago   Up 41 seconds   0.0.0.0:8080->80/tcp, [::]:8080->80/tcp   dvwa
 ```
 
 **Accessing DVWA:**
